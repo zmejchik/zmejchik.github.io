@@ -12,13 +12,13 @@ h1 {
     text-align: left;
     color: darkgreen;
     font-size: 200%;
+    padding: 10px;
+    margin: 0%;
     /*background-color: yellow;*/
 }
 .logo{
     float: right; 
-    margin-right: 10px;
-	margin-top: 2.5%;
-    align-items:end;
+    max-width: 90%;
 }
 .alldata{
     display: flex;
