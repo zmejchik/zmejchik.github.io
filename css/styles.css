@@ -3,4 +3,32 @@ h1 {
     font-weight: bold;
     align-content: center;
     margin: 30px;
+    color: darkorange;
+    text-align: center;
+    text-decoration: double;
+    font-size: 300%;
 }
+.mydata{
+    text-align: left;
+    color: darkgreen;
+    font-size: 200%;
+    /*background-color: yellow;*/
+}
+.logo{
+    float: right; 
+    margin-right: 5%;
+	margin-top: 2.5%;
+    align-items:end;
+}
+.alldata{
+    display: flex;
+}
+.mail{
+    font-size: 40px;
+}
+.footer{
+    display: flex;
+    align-items:center;
+    align-content: center;
+}
+
