@@ -8,6 +8,9 @@ h1 {
     text-decoration: double;
     font-size: 300%;
 }
+p{
+    text-align: justify;
+}
 .mydata{
     text-align: left;
     color: darkgreen;
