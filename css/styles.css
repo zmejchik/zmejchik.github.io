@@ -136,7 +136,7 @@ button:focus::after {
     }
     .mydata {
         text-align: center;
-        font-size: 100%;
+        font-size: 50%;
     }
     .logo{
         max-width: 0;
