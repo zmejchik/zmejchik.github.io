@@ -2,11 +2,9 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     align-content: center;
-    margin: 30px;
     color: rgb(4, 21, 117);
     text-align: center;
     text-decoration: double;
-    font-size: 300%;
 }
 
 p {
@@ -14,9 +12,7 @@ p {
 }
 
 .mydata {
-    text-align: left;
     color: darkgreen;
-    font-size: 200%;
     padding: 10px;
     margin: 0%;
     /*background-color: yellow;*/
@@ -39,6 +35,7 @@ p {
     display: flex;
     align-items: center;
     align-content: center;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -124,8 +121,51 @@ button:focus::after {
     }
 
     100% {
-        width: 300px;
-        height: 300px;
+        width: 100px;
+        height: 100px;
         opacity: 0;
     }
+}
+@media screen and (min-width: 0px){
+    h1 {
+        margin: 20px;
+        font-size: 100%;
+    }
+    .alldata{
+        flex-wrap: wrap;
+    }
+    .mydata {
+        text-align: center;
+        font-size: 100%;
+    }
+    .logo{
+        max-width: 0;
+    }
+    .footer{
+        flex-direction: column-reverse;
+    }
+
+    
+}
+@media screen and (min-width: 320px){
+    h1 {
+        margin: 30px;
+        font-size: 300%;
+    }
+    .alldata{
+        flex-wrap: nowrap;
+    }
+    .mydata {
+        text-align: left;
+        font-size: 200%;
+    }
+    
+}
+@media screen and (min-width:768px){
+    .logo{
+        max-width: 90%;
+    } 
+    .footer{
+        flex-direction: row;
+    }   
 }
